@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color:rgb(147, 170, 211);
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: weight; */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+}
+
+#button{
+    background-color:darkgray;
+    font-size: 2em;
+    width: 160px;
+    height: 50px;
+}
+
+#button:hover{
+    cursor: pointer;
+    margin:0px;
+    box-shadow: 3px 3px 3px 3px black;
+}
+
+img{
+    top: 10px;
+    width:800px;
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+#Country , #Report
+{
+    font-size: 40px;
+    line-height: 38px;
+}
